@@ -3,7 +3,7 @@ set -e
 
 PROJECT_ID="vcc-assignment-2-488908"
 ZONE="us-central1-a"
-INSTANCE_NAME="Scale-vm-$(date +%Y%m%d-%H%M%S)"
+INSTANCE_NAME="scale"
 
 gcloud compute instances create "$INSTANCE_NAME" \
   --project="$PROJECT_ID" \
